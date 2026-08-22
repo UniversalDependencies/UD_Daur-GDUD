@@ -1,0 +1,1037 @@
+# sent_id = Daur_grammar_1
+# text = ənə joː?
+# text[eng] = What is this?
+1	ənə	ənə	PRON	_	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	joː	joː	VERB	_	VerbForm=Cop	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Daur_grammar_2
+# text = ənə minʲ bitəɣ
+# text[eng] = This is my book.
+1	ənə	ənə	PRON	_	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	minʲ	minʲ	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	bitəɣ	bitəɣ	NOUN	_	Number=Sing	0	root	_	_
+
+# sent_id = Daur_grammar_3
+# text = ənə nək dəbtleːn bitəɣ jəː?
+# text[eng] = Is this a book?
+1	ənə	ənə	PRON	_	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	nək	nək	NOUN	_	Number=Sing	3	compound	_	_
+3	dəbtleːn	dəbtleːn	NOUN	_	Number=Sing	4	compound	_	_
+4	bitəɣ	bitəɣ	NOUN	_	Number=Sing	0	root	_	_
+5	jəː	jəː	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	SpaceAfter=No
+6	?	?	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Daur_grammar_4
+# text = tər bitəɣ xiː-ɣu dəbtleːn.
+# text[eng] = That is not a book.
+1	tər	tər	DET	_	PronType=Dem	4	det	_	_
+2	bitəɣ	bitəɣ	NOUN	_	Number=Sing	4	compound	_	_
+3	xiː-ɣu	xiː-ɣu	AUX	_	Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	dəbtleːn	dəbtleːn	NOUN	_	Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Daur_grammar_5
+# text = ʃi anin-ʃi?
+# text[eng] = Who are you?
+1	ʃi	ʃi	PRON	_	Number=Sing|Person=2|PronType=Prs	2	nsubj	_	_
+2	anin-ʃi	anin	PRON	_	Number=Sing|PronType=Int	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Daur_grammar_6
+# text = biːʃebʲ biː.
+# text[eng] = I am a student.
+1	biːʃebʲ	biːʃebʲ	NOUN	_	Number=Sing	0	root	_	_
+2	biː	biː	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	cop	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Daur_grammar_7
+# text = Tujaː-bi biː.
+# text[eng] = My name is Tuyaa.
+1	Tujaː-bi	Tujaː	PROPN	_	Number=Sing	0	root	_	_
+2	biː	biː	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	cop	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Daur_grammar_8
+# text = tər səb.
+# text[eng] = She is a teacher.
+1	tər	tər	PRON	_	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	səb	səb	NOUN	_	Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Daur_grammar_9
+# text = tər xuː səb biʃindʒuɣʲ-bəi jəː?
+# text[eng] = He is not a teacher, right?
+1	tər	tər	DET	_	PronType=Dem	3	det	_	_
+2	xuː	xuː	NOUN	_	Number=Sing	3	compound	_	_
+3	səb	səb	NOUN	_	Number=Sing	0	root	_	_
+4	biʃin	biʃin	AUX	_	Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin	3	cop	_	SpaceAfter=No
+5	dʒuɣʲ-bəi	dʒuɣʲ-bəi	PART	_	_	3	discourse	_	_
+6	jəː	jəː	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	SpaceAfter=No
+7	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Daur_grammar_10
+# text = dʒuɣʲ-bəi.
+# text[eng] = You are right.
+1	dʒuɣʲ-bəi	dʒuɣʲ-bəi	ADJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Daur_grammar_11
+# text = tər olur jamər xuː?
+# text[eng] = What do they do?
+1	tər	tər	DET	_	PronType=Dem	2	det	_	_
+2	olur	olur	NOUN	_	Number=Plur	4	nsubj	_	_
+3	jamər	jamər	DET	_	PronType=Int	4	det	_	_
+4	xuː	xuː	NOUN	_	_	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Daur_grammar_12
+# text = biː ul mədə-n, tər səb jum woː? ʃəbʲ jum woː?
+# text[eng] = I don't know whether they are teachers or students.
+1	biː	biː	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	ul	ul	PART	_	Polarity=Neg	3	advmod	_	_
+3	mədə-n	mədə	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	tər	tər	PRON	_	Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
+6	səb	səb	NOUN	_	_	3	ccomp	_	_
+7	jum	jum	CCONJ	_	_	6	cc	_	_
+8	woː	woː	PART	_	PartType=Int	6	discourse	_	SpaceAfter=No
+9	?	?	PUNCT	_	_	3	punct	_	_
+10	ʃəbʲ	ʃəbʲ	NOUN	_	_	6	conj	_	_
+11	jum	jum	CCONJ	_	_	10	cc	_	_
+12	woː	woː	PART	_	PartType=Int	10	discourse	_	SpaceAfter=No
+13	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Daur_grammar_13
+# text = ənə gub ʃinʲ dʒak-ʃinʲ jəː?
+# text[eng] = Are these your belongings?
+1	ənə	ənə	DET	_	PronType=Dem	4	det	_	_
+2	gub	gub	DET	_	PronType=Tot	4	det	_	_
+3	ʃinʲ	ʃinʲ	PRON	_	Number=Sing|Person=2|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	dʒak-ʃinʲ	dʒak	NOUN	_	Number=Plur|Person=2|Poss=Yes	0	root	_	_
+5	jəː	jəː	PART	_	PartType=Int	4	discourse	_	SpaceAfter=No
+6	?	?	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Daur_grammar_14
+# text = ənə dʒak-sul-d miniːɣ bas bəi, akaː-jiːɣ-minʲ bas bəi
+# text[eng] = Some of these things are mine and some are my elder brother's.
+1	ənə	ənə	DET	_	PronType=Dem	2	det	_	_
+2	dʒak-sul-d	dʒak	NOUN	_	Case=Dat|Number=Plur	5	obl	_	_
+3	miniːɣ	miniːɣ	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nsubj	_	_
+4	bas	bas	ADV	_	_	5	advmod	_	_
+5	bəi	bəi	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	akaː-jiːɣ-minʲ	akaː	NOUN	_	Case=Gen|Person=3|Poss=Yes	9	nsubj	_	_
+8	bas	bas	ADV	_	_	9	advmod	_	_
+9	bəi	bəi	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	conj	_	_
+
+# sent_id = Daur_grammar_15
+# text = ənə gotʃoːx miniːɣ tʃ biʃin, akaː-jiːɣ-minʲ tʃ biʃin, xən-jiːɣ-iː ul mədə-n
+# text[eng] = This pair of boots is not mine and it is not my elder brother's either. I don't know whose it is.
+1	ənə	ənə	DET	_	PronType=Dem	2	det	_	_
+2	gotʃoːx	gotʃoːx	NOUN	_	_	5	nsubj	_	_
+3	miniːɣ	miniːɣ	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	xcomp	_	_
+4	tʃ	tʃ	ADV	_	_	5	advmod	_	_
+5	biʃin	biʃin	AUX	_	Mood=Ind|Polarity=Neg|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	akaː-jiːɣ-minʲ	akaː	NOUN	_	Case=Gen|Person=3|Poss=Yes	10	xcomp	_	_
+8	tʃ	tʃ	ADV	_	_	10	advmod	_	_
+9	biʃin	biʃin	AUX	_	Mood=Ind|Polarity=Neg|VerbForm=Fin	5	conj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	5	punct	_	_
+11	xən-jiːɣ-iː	xən	PRON	_	Case=Gen|PronType=Int	13	obj	_	_
+12	ul	ul	PART	_	Polarity=Neg	13	advmod	_	_
+13	mədə-n	mədə	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	conj	_	_
+
+# sent_id = Daur_grammar_16
+# text = ʃiː ɲakən usuɣʷ ʃadə-b-ʃi jəː?
+# text[eng] = Can you speak Chinese?
+1	ʃiː	ʃiː	PRON	_	Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
+2	ɲakən	ɲakən	PROPN	_	_	3	compound	_	_
+3	usuɣʷ	usuɣʷ	NOUN	_	_	4	obj	_	_
+4	ʃadə-b-ʃi	ʃad	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	jəː	jəː	PART	_	PartType=Int	4	discourse	_	SpaceAfter=No
+6	?	?	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Daur_grammar_17
+# text = ʃad-bəi, utʃəːk ʃad-bəi
+# text[eng] = Yes, I speak a little.
+1	ʃad-bəi	ʃad	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	utʃəːk	utʃəːk	ADV	_	Degree=Pos	4	advmod	_	_
+4	ʃad-bəi	ʃad	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	conj	_	_
+
+# sent_id = Daur_grammar_18
+# text = ʃinʲ xuː-ʃinʲ ɲakən usuɣʷ ʃad-bəi jəː?
+# text[eng] = Can your wife speak Chinese?
+1	ʃinʲ	ʃinʲ	PRON	_	Number=Sing|Person=2|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	xuː-ʃinʲ	xuː	NOUN	_	Person=2|Poss=Yes	5	nsubj	_	_
+3	ɲakən	ɲakən	PROPN	_	_	4	compound	_	_
+4	usuɣʷ	usuɣʷ	NOUN	_	_	5	obj	_	_
+5	ʃad-bəi	ʃad	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	jəː	jəː	PART	_	PartType=Int	5	discourse	_	SpaceAfter=No
+7	?	?	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Daur_grammar_19
+# text = ul ʃadə-n, in wəːrə-l usuɣʷ ʃad-bəi
+# text[eng] = No, she cannot; she can only speak our language.
+1	ul	ul	PART	_	Polarity=Neg	2	advmod	_	_
+2	ʃadə-n	ʃad	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	in	in	PRON	_	Number=Sing|Person=3|PronType=Prs	2	parataxis	_	_
+5	wəːrə-l	wəːrə	NOUN	_	Number=Plur|Poss=Yes	6	nmod:poss	_	_
+6	usuɣʷ	usuɣʷ	NOUN	_	_	2	parataxis	_	_
+7	ʃad-bəi	ʃad	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	_
+
+# sent_id = Daur_grammar_20
+# text = ʃinʲ atʃaː-ʃinʲ xaːnə bəi?
+# text[eng] = Where is your father?
+1	ʃinʲ	ʃinʲ	PRON	_	Number=Sing|Person=2|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	atʃaː-ʃinʲ	atʃaː	NOUN	_	Person=2|Poss=Yes	4	nsubj	_	_
+3	xaːnə	xaːnə	ADV	_	PronType=Int	4	advmod	_	_
+4	bəi	bəi	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Daur_grammar_21
+# text = minʲ atʃaː-minʲ gərʲ-dəː bəi, minʲ əwəː-minʲ bas gər-dəː bəi
+# text[eng] = My father is at home and my mother is also at home.
+1	minʲ	minʲ	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	atʃaː-minʲ	atʃaː	NOUN	_	Person=1|Poss=Yes	4	nsubj	_	_
+3	gərʲ-dəː	gərʲ	NOUN	_	Case=Loc|Reflex=Yes	4	obl	_	_
+4	bəi	bəi	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	minʲ	minʲ	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	əwəː-minʲ	əwəː	NOUN	_	Person=1|Poss=Yes	10	nsubj	_	_
+8	bas	bas	ADV	_	_	10	advmod	_	_
+9	gər-dəː	gər	NOUN	_	Case=Loc|Reflex=Yes	10	obl	_	_
+10	bəi	bəi	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	conj	_	_
+
+# sent_id = Daur_grammar_22
+# text = ʃiː dʒak-aː xaːnə talʲ-lən-ʃeː?
+# text[eng] = Where did you put your things?
+1	ʃiː	ʃiː	PRON	_	Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
+2	dʒak-aː	dʒak	NOUN	_	Case=Acc|Reflex=Yes	4	obj	_	_
+3	xaːnə	xaːnə	ADV	_	PronType=Int	4	advmod	_	_
+4	talʲ-lən-ʃeː	talʲ	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Daur_grammar_23
+# text = id-ɣu dʒak xoː guːsu-d bəi, baitlə-ɣu dʒak ʃirəː dəː bəi
+# text[eng] = The food is in the cupboard and the things for use are on the table.
+1	id-ɣu	id	VERB	_	Aspect=Imp|VerbForm=Part	2	amod	_	_
+2	dʒak	dʒak	NOUN	_	_	5	nsubj	_	_
+3	xoː	xoː	DET	_	PronType=Tot	2	det	_	_
+4	guːsu-d	guːsu	NOUN	_	Case=Dat	5	obl	_	_
+5	bəi	bəi	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	baitlə-ɣu	baitlə	VERB	_	Aspect=Imp|VerbForm=Part	8	amod	_	_
+8	dʒak	dʒak	NOUN	_	_	5	parataxis	_	_
+9	ʃirəː	ʃirəː	NOUN	_	_	11	nmod	_	_
+10	dəː	dəː	ADP	_	_	9	case	_	_
+11	bəi	bəi	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	conj	_	_
+
+# sent_id = Daur_grammar_24
+# text = ənd xoir bandən bəi jəː?
+# text[eng] = Are there two chairs here?
+1	ənd	ənd	ADV	_	_	4	advmod	_	_
+2	xoir	xoir	NUM	_	NumType=Card	3	nummod	_	_
+3	bandən	bandən	NOUN	_	Number=Plur	4	nsubj	_	_
+4	bəi	bəi	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	jəː	jəː	PART	_	PartType=Int	4	discourse	_	SpaceAfter=No
+6	?	?	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Daur_grammar_25
+# text = ʃiː tʃeːtiːʃi jəː?
+# text[eng] = Do you have tea?
+1	ʃiː	ʃiː	PRON	_	Number=Sing|Person=2|PronType=Prs	2	nsubj	_	_
+2	tʃeːtiːʃi	tʃeː	NOUN	_	Person=2|Poss=Yes	0	root	_	_
+3	jəː	jəː	PART	_	PartType=Int	2	discourse	_	SpaceAfter=No
+4	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Daur_grammar_26
+# text = naːd bəi tənd-əː ədəː tʃeː-jaː xaːnə bəi-ji-nʷ məd-ɣu uwəi-bi
+# text[eng] = Yes, I have, but I don't know where it is.
+1	naːd	naːd	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	bəi	bəi	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	tənd-əː	tənd	ADV	_	_	2	advmod	_	_
+4	ədəː	ədəː	ADV	_	_	8	advmod	_	_
+5	tʃeː-jaː	tʃeː	NOUN	_	Case=Acc|Reflex=Yes	8	nsubj	_	_
+6	xaːnə	xaːnə	ADV	_	PronType=Int	8	advmod	_	_
+7	bəi-ji-nʷ	bəi	AUX	_	Case=Acc|Mood=Ind|Reflex=Yes|VerbForm=Fin	8	ccomp	_	_
+8	məd-ɣu	məd	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin	2	conj	_	_
+9	uwəi-bi	uwəi	AUX	_	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin	8	aux	_	_
+
+# sent_id = Daur_grammar_27
+# text = ʃiː xar satəntiː-ʃi jəː?
+# text[eng] = Do you have brown sugar?
+1	ʃiː	ʃiː	PRON	_	Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
+2	xar	xar	ADJ	_	Degree=Pos	3	amod	_	_
+3	satəntiː-ʃi	satən	NOUN	_	Person=2|Poss=Yes	0	root	_	_
+4	jəː	jəː	PART	_	PartType=Int	3	discourse	_	SpaceAfter=No
+5	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Daur_grammar_28
+# text = naːd xar satən uwəi, tʃiɣaːn satən bəi
+# text[eng] = No, I don't; I have white sugar.
+1	naːd	naːd	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	xar	xar	ADJ	_	Degree=Pos	3	amod	_	_
+3	satən	satən	NOUN	_	_	4	obj	_	_
+4	uwəi	uwəi	VERB	_	Mood=Ind|Polarity=Neg|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	tʃiɣaːn	tʃiɣaːn	ADJ	_	Degree=Pos	7	amod	_	_
+7	satən	satən	NOUN	_	_	8	obj	_	_
+8	bəi	bəi	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	conj	_	_
+
+# sent_id = Daur_grammar_29
+# text = ənə udur jamər udur?
+# text[eng] = What is the date today?
+1	ənə	ənə	DET	_	PronType=Dem	2	det	_	_
+2	udur	udur	NOUN	_	_	4	nsubj	_	_
+3	jamər	jamər	DET	_	PronType=Int	4	det	_	_
+4	udur	udur	NOUN	_	_	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Daur_grammar_30
+# text = ənə udur utkai mʲaŋgə isən dʒau najin xoːn-iː dʒakunbeː ʃinən ʃintʃiːwu.
+# text[eng] = Today is Friday, August 1, 1980.
+1	ənə	ənə	DET	_	PronType=Dem	2	det	_	_
+2	udur	udur	NOUN	_	_	0	root	_	_
+3	utkai	utkai	ADV	_	_	2	advmod	_	_
+4	mʲaŋgə	mʲaŋgə	NUM	_	NumType=Card	8	nummod	_	_
+5	isən	isən	NUM	_	NumType=Card	8	nummod	_	_
+6	dʒau	dʒau	NUM	_	NumType=Card	8	nummod	_	_
+7	najin	najin	NUM	_	NumType=Card	8	nummod	_	_
+8	xoːn-iː	xoːn	NOUN	_	Case=Gen	2	nmod	_	_
+9	dʒakunbeː	dʒakunbeː	PROPN	_	_	2	appos	_	_
+10	ʃinən	ʃinən	NOUN	_	_	9	flat	_	_
+11	ʃintʃiːwu	ʃintʃiːwu	PROPN	_	_	2	appos	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Daur_grammar_31
+# text = ʃiː jamər xoːn-d udʒi-rd-sən-ʃeː?
+# text[eng] = Which year were you born in?
+1	ʃiː	ʃiː	PRON	_	Number=Sing|Person=2|PronType=Prs	4	nsubj:pass	_	_
+2	jamər	jamər	DET	_	PronType=Int	3	det	_	_
+3	xoːn-d	xoːn	NOUN	_	Case=Dat	4	obl	_	_
+4	udʒi-rd-sən-ʃeː	udʒi	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Daur_grammar_32
+# text = biː mʲaŋgə isən dʒau gotʃin gʷarəbdaːr xoːn nadənbeː ʃinən gʷarbən-d udʒi-rd-tən-bi
+# text[eng] = I was born on July 3, 1933.
+1	biː	biː	PRON	_	Number=Sing|Person=1|PronType=Prs	11	dep	_	_
+2	mʲaŋgə	mʲaŋgə	NUM	_	NumType=Card	11	dep	_	_
+3	isən	isən	NUM	_	NumType=Card	11	dep	_	_
+4	dʒau	dʒau	NUM	_	NumType=Card	11	dep	_	_
+5	gotʃin	gotʃin	NUM	_	NumType=Card	11	dep	_	_
+6	gʷarəbdaːr	gʷarəbdaːr	NUM	_	NumType=Card	11	dep	_	_
+7	xoːn	xoːn	NOUN	_	_	11	dep	_	_
+8	nadənbeː	nadənbeː	PROPN	_	_	11	dep	_	_
+9	ʃinən	ʃinən	NOUN	_	_	11	dep	_	_
+10	gʷarbən-d	gʷarbən	NUM	_	Case=Dat|NumType=Card	11	dep	_	_
+11	udʒi-rd-tən-bi	udʒi	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+
+# sent_id = Daur_grammar_33
+# text = tər xədʒəː ənd-əːr jau-sən?
+# text[eng] = When did he leave?
+1	tər	tər	PRON	_	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	xədʒəː	xədʒəː	ADV	_	PronType=Int	4	advmod	_	_
+3	ənd-əːr	ənd	ADV	_	Case=Abl	4	obl	_	_
+4	jau-sən	jau	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Daur_grammar_34
+# text = biː jerɣeːn udur-i-nʲ mart-sən, nidaːnʲ dʒʷəːbeː aː-sən bəidʒeː.
+# text[eng] = I forget the exact date. Probably, he left last February.
+1	biː	biː	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	jerɣeːn	jerɣeːn	ADJ	_	Degree=Pos	3	amod	_	_
+3	udur-i-nʲ	udur	NOUN	_	Case=Acc|Reflex=Yes	4	obj	_	_
+4	mart-sən	mart	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	nidaːnʲ	nidaːnʲ	NOUN	_	_	8	obl:tmod	_	_
+7	dʒʷəːbeː	dʒʷəːbeː	PROPN	_	_	6	appos	_	_
+8	aː-sən	aː	VERB	_	Tense=Past|VerbForm=Part	9	xcomp	_	_
+9	bəidʒeː	bəi	AUX	_	Evident=Hearsay|Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Daur_grammar_35
+# text = xədən ərin bol-lən? xoir ərin bol-lən, dʒuɣʲ-bəi adʒ jəː?
+# text[eng] = What time is it? It is two o'clock, isn't it?
+1	xədən	xədən	DET	_	PronType=Int	2	det	_	_
+2	ərin	ərin	NOUN	_	_	3	nsubj	_	_
+3	bol-lən	bol	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	_	_	3	punct	_	_
+5	xoir	xoir	NUM	_	NumType=Card	6	nummod	_	_
+6	ərin	ərin	NOUN	_	_	7	nsubj	_	_
+7	bol-lən	bol	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	dʒuɣʲ-bəi	dʒuɣʲ	ADJ	_	Polarity=Pos	7	parataxis	_	_
+10	adʒ	adʒ	AUX	_	Mood=Ind|VerbForm=Fin	9	cop	_	_
+11	jəː	jəː	PART	_	PartType=Int	9	discourse	_	SpaceAfter=No
+12	?	?	PUNCT	_	_	7	punct	_	_
+
+# sent_id = Daur_grammar_36
+# text = biː ul mədə-n, minʲ bʲau-minʲ xordun, ʃiniːɣ gʷaidaːn.
+# text[eng] = I don't know. My watch is fast, but yours is slow.
+1	biː	biː	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	ul	ul	PART	_	Polarity=Neg	3	advmod	_	_
+3	mədə-n	mədə	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	minʲ	minʲ	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	bʲau-minʲ	bʲau	NOUN	_	Person=1|Poss=Yes	7	nsubj	_	_
+7	xordun	xordun	ADJ	_	Degree=Pos	3	conj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	ʃiniːɣ	ʃiniːɣ	PRON	_	Number=Sing|Person=2|Poss=Yes|PronType=Prs	10	nsubj	_	_
+10	gʷaidaːn	gʷaidaːn	ADJ	_	Degree=Pos	7	conj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Daur_grammar_37
+# text = minʲ bodɣ-oːr xoir ərin-əːr xədən fun duləː-dʒ-a-bəi
+# text[eng] = I think it is several minutes past two o'clock.
+1	minʲ	minʲ	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	bodɣ-oːr	bodɣ	NOUN	_	Case=Ins	7	obl	_	_
+3	xoir	xoir	NUM	_	NumType=Card	4	nummod	_	_
+4	ərin-əːr	ərin	NOUN	_	Case=Abl	7	obl	_	_
+5	xədən	xədən	DET	_	PronType=Ind	6	det	_	_
+6	fun	fun	NOUN	_	_	7	nsubj	_	_
+7	duləː-dʒ-a-bəi	duləː	VERB	_	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+
+# sent_id = Daur_grammar_38
+# text = uwəi, xoir ərin kur-ɣu udeːn.
+# text[eng] = No, it is not two o'clock yet.
+1	uwəi	uwəi	INTJ	_	_	4	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	4	punct	_	_
+3	xoir	xoir	NUM	_	NumType=Card	4	nummod	_	_
+4	ərin	ərin	NOUN	_	_	0	root	_	_
+5	kur-ɣu	kur	VERB	_	Aspect=Imp	4	acl	_	_
+6	udeːn	udeːn	AUX	_	Polarity=Neg	4	aux	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Daur_grammar_39
+# text = ʃinʲ bʲau-ʃinʲ xarbən fun kur-ɣu xordun.
+# text[eng] = Your watch is ten minutes fast.
+1	ʃinʲ	ʃinʲ	PRON	_	Number=Sing|Person=2|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	bʲau-ʃinʲ	bʲau	NOUN	_	Number[psor]=Sing|Person[psor]=2	0	root	_	_
+3	xarbən	xarbən	NUM	_	NumType=Card	4	nummod	_	_
+4	fun	fun	NOUN	_	_	2	obl	_	_
+5	kur-ɣu	kur	VERB	_	Aspect=Imp	2	acl	_	_
+6	xordun	xordun	ADJ	_	Degree=Pos	2	xcomp	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Daur_grammar_40
+# text = jaɣ gʷarbən ərin bolɣ-oːr bʲau-jaː toloː-ɣaːneː.
+# text[eng] = When it is exactly three o'clock, let us compare our watches.
+1	jaɣ	jaɣ	ADV	_	Degree=Abs	4	advmod	_	_
+2	gʷarbən	gʷarbən	NUM	_	NumType=Card	3	nummod	_	_
+3	ərin	ərin	NOUN	_	_	4	nsubj	_	_
+4	bolɣ-oːr	bol	VERB	_	Case=Ins|VerbForm=Conv	0	root	_	_
+5	bʲau-jaː	bʲau	NOUN	_	Reflex=Yes	4	parataxis	_	_
+6	toloː-ɣaːneː	toloː	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=1	4	parataxis	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Daur_grammar_41
+# text = biː jau-ɣu ərin-minʲ bol-lən, biː xər tʃ xiːdʒiː ərini-dəː kur-wəi.
+# text[eng] = It is time I must leave. I have to be on time.
+1	biː	biː	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	jau-ɣu	jau	VERB	_	Aspect=Imp	4	acl	_	_
+3	ərin-minʲ	ərin	NOUN	_	Number[psor]=Sing|Person[psor]=1	4	nsubj	_	_
+4	bol-lən	bol	VERB	_	Tense=Past	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	biː	biː	PRON	_	Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+7	xər	xər	DET	_	PronType=Ind	8	det	_	_
+8	tʃ	tʃ	NOUN	_	_	11	obl	_	_
+9	xiːdʒiː	xiːdʒiː	ADV	_	_	11	advmod	_	_
+10	ərini-dəː	ərin	NOUN	_	Case=Dat	11	obl	_	_
+11	kur-wəi	kur	VERB	_	Aspect=Perf	4	parataxis	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Daur_grammar_42
+# text = ʃiː ul dʲallən-tən-ʃi, ərin bas ərd aːdʒ-aː-bəi.
+# text[eng] = You will not be late; it is still early.
+1	ʃiː	ʃiː	PRON	_	Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
+2	ul	ul	PART	_	Polarity=Neg	3	advmod	_	_
+3	dʲallən-tən-ʃi	dʲallən	VERB	_	Number=Sing|Person=2|Tense=Past	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	ərin	ərin	NOUN	_	_	8	nsubj	_	_
+6	bas	bas	ADV	_	_	8	advmod	_	_
+7	ərd	ərd	ADJ	_	Degree=Pos	8	xcomp	_	_
+8	aːdʒ-aː-bəi	aːdʒ	AUX	_	Tense=Pres	3	parataxis	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Daur_grammar_43
+# text = biː nək ərin boːldʒoː-dʒ itʃ-jaː.
+# text[eng] = I want to make an appointment to see you.
+1	biː	biː	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	nək	nək	NUM	_	NumType=Card	3	nummod	_	_
+3	ərin	ərin	NOUN	_	_	5	obj	_	_
+4	boːldʒoː-dʒ	boːldʒoː	VERB	_	Aspect=Imp|VerbForm=Conv	5	xcomp	_	_
+5	itʃ-jaː	itʃ	VERB	_	Aspect=Imp|Mood=Ind	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Daur_grammar_44
+# text = ʃintʃiwuː-jər biʃin jamər tʃ udur itʃ-ɣu-d-ʃinʲ xoː bol-bəi.
+# text[eng] = Except for Friday, you can visit me any day.
+1	ʃintʃiwuː-jər	ʃintʃiwuː	NOUN	_	Case=Abl	8	obl	_	_
+2	biʃin	biʃin	ADP	_	_	1	case	_	_
+3	jamər	jamər	DET	_	PronType=Int	5	det	_	_
+4	tʃ	tʃ	NOUN	_	_	5	compound	_	_
+5	udur	udur	NOUN	_	_	8	obl	_	_
+6	itʃ-ɣu-d-ʃinʲ	itʃ	VERB	_	Aspect=Imp|Case=Dat|Number=Sing|Person=2	8	acl	_	_
+7	xoː	xoː	DET	_	PronType=Tot	5	det	_	_
+8	bol-bəi	bol	VERB	_	Polarity=Neg|Tense=Pres	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = Daur_grammar_45
+# text = ʃiː joːkeː xiɣ bol-lən-ʃeː?
+# text[eng] = How old are you?
+1	ʃiː	ʃiː	PRON	_	Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
+2	joːkeː	joːkeː	ADV	_	PronType=Int	3	advmod	_	_
+3	xiɣ	xiɣ	ADJ	_	Degree=Pos	4	xcomp	_	_
+4	bol-lən-ʃeː	bol	VERB	_	Number=Sing|Person=2|Tense=Past	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Daur_grammar_46
+# text = biː xorin taːwutiː-bi.
+# text[eng] = I am twenty-five.
+1	biː	biː	PRON	_	Number=Sing|Person=1|PronType=Prs	0	root	_	_
+2	xorin	xorin	NUM	_	NumType=Card	1	parataxis	_	_
+3	taːwutiː-bi	taːwutiː	NUM	_	Number=Sing|NumType=Card|Person=1	1	parataxis	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Daur_grammar_47
+# text = ʃinʲ akaː-ʃid dutʃinʲ nas kur-ɣu udeːn, dʒuɣj-bəi jaː?
+# text[eng] = Your elder brother is not forty yet, is he?
+1	ʃinʲ	ʃinʲ	PRON	_	Number=Sing|Person=2|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	akaː-ʃid	akaː	NOUN	_	Number=Sing|Person[psor]=2	5	nsubj	_	_
+3	dutʃinʲ	dutʃinʲ	NUM	_	NumType=Card	4	nummod	_	_
+4	nas	nas	NOUN	_	_	5	obj	_	_
+5	kur-ɣu	kur	VERB	_	Aspect=Imp	0	root	_	_
+6	udeːn	udeːn	AUX	_	Polarity=Neg	5	aux	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	5	punct	_	_
+8	dʒuɣj-bəi	dʒuɣj	PART	_	Polarity=Neg	5	discourse	_	_
+9	jaː	jaː	PART	_	PartType=Int	5	discourse	_	SpaceAfter=No
+10	?	?	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Daur_grammar_48
+# text = biː ʃam-aːr xoir-oːr aɣ-bi, minʲ dəu-minʲ nam-aːr xoir-oːr uʃkən.
+# text[eng] = I am two years older than you and my younger brother is two years younger than you.
+1	biː	biː	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	ʃam-aːr	ʃam	PRON	_	Case=Abl|Number=Sing|Person=2|PronType=Prs	4	obl	_	_
+3	xoir-oːr	xoir	NUM	_	Case=Ins|NumType=Card	4	obl	_	_
+4	aɣ-bi	aɣ	ADJ	_	Degree=Cmp|Number=Sing|Person=1	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	minʲ	minʲ	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	dəu-minʲ	dəu	NOUN	_	Number=Sing|Person[psor]=1	10	nsubj	_	_
+8	nam-aːr	nam	PRON	_	Case=Abl|Number=Sing|Person=1|PronType=Prs	10	obl	_	_
+9	xoir-oːr	xoir	NUM	_	Case=Ins|NumType=Card	10	obl	_	_
+10	uʃkən	uʃkən	ADJ	_	Degree=Cmp	4	conj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Daur_grammar_49
+# text = tər xoir nək nas, gub xonʲ dʒiltiː.
+# text[eng] = The two of them are the same age and both were born in the year of the sheep.
+1	tər	tər	PRON	_	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	xoir	xoir	NUM	_	NumType=Card	1	nummod	_	_
+3	nək	nək	NUM	_	NumType=Card	4	nummod	_	_
+4	nas	nas	NOUN	_	_	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	gub	gub	DET	_	PronType=Tot	7	det	_	_
+7	xonʲ	xonʲ	NOUN	_	_	8	compound	_	_
+8	dʒiltiː	dʒiltiː	NOUN	_	_	4	conj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Daur_grammar_50
+# text = minʲ əkəː-minʲ əkən xiɣ-in, biː ɲalkinʲ-bi.
+# text[eng] = My elder sister is the oldest one and I am the youngest one in the family.
+1	minʲ	minʲ	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	əkəː-minʲ	əkəː	NOUN	_	Number=Sing|Person[psor]=1	4	nsubj	_	_
+3	əkən	əkən	ADV	_	Degree=Sup	4	advmod	_	_
+4	xiɣ-in	xiɣ	ADJ	_	Degree=Sup	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	biː	biː	PRON	_	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	ɲalkinʲ-bi	ɲalkinʲ	ADJ	_	Degree=Sup|Number=Sing|Person=1	4	conj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Daur_grammar_51
+# text = minʲ ujin dəu-minʲ tərəːw-əːr gʷarb-aːr dəu, ʃinʲ əkəː-ʃinʲ tərəːw-əːr taːwun nas-aːr xiɣ.
+# text[eng] = My younger sister is three years younger than she is and your elder sister is five years older than she is.
+1	minʲ	minʲ	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+2	ujin	ujin	NOUN	_	_	3	compound	_	_
+3	dəu-minʲ	dəu	NOUN	_	Number=Sing|Person[psor]=1	6	nsubj	_	_
+4	tərəːw-əːr	tərəːw	PRON	_	Case=Abl|Number=Sing|Person=3|PronType=Prs	6	obl	_	_
+5	gʷarb-aːr	gʷarb	NUM	_	Case=Ins|NumType=Card	6	obl	_	_
+6	dəu	dəu	ADJ	_	Degree=Cmp	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	ʃinʲ	ʃinʲ	PRON	_	Number=Sing|Person=2|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	əkəː-ʃinʲ	əkəː	NOUN	_	Number=Sing|Person[psor]=2	6	parataxis	_	_
+10	tərəːw-əːr	tərəːw	PRON	_	Case=Abl|Number=Sing|Person=3|PronType=Prs	6	parataxis	_	_
+11	taːwun	taːwun	NUM	_	NumType=Card	12	nummod	_	_
+12	nas-aːr	nas	NOUN	_	Case=Ins	6	parataxis	_	_
+13	xiɣ	xiɣ	ADJ	_	Degree=Cmp	6	conj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Daur_grammar_52
+# text = ʃinʲ udʒ-ɣu-d biː joːkeː nastiː-biː.
+# text[eng] = Guess how old I am.
+1	ʃinʲ	ʃinʲ	PRON	_	Number=Sing|Person=2|PronType=Prs	2	nsubj	_	_
+2	udʒ-ɣu-d	udʒ	VERB	_	Aspect=Imp|Case=Dat|Mood=Imp	0	root	_	_
+3	biː	biː	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	joːkeː	joːkeː	ADV	_	PronType=Int	5	advmod	_	_
+5	nastiː-biː	nastiː	NOUN	_	Number=Sing|Person=1	2	ccomp	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Daur_grammar_53
+# text = biː udʒ-ɣu-d ʃiː tabʲtiː-ʃi.
+# text[eng] = I think you are fifty.
+1	biː	biː	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	udʒ-ɣu-d	udʒ	VERB	_	Aspect=Imp|Case=Dat|Mood=Ind	0	root	_	_
+3	ʃiː	ʃiː	PRON	_	Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
+4	tabʲtiː-ʃi	tabʲtiː	NUM	_	Number=Sing|NumType=Card|Person=2	2	ccomp	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Daur_grammar_54
+# text = daɣeː ʃintʃiː siː-d buɣul dutʃin doloː nas bol-wəi.
+# text[eng] = Next Thursday I will be exactly forty-seven.
+1	daɣeː	daɣeː	ADV	_	_	2	advmod	_	_
+2	ʃintʃiː	ʃintʃiː	NOUN	_	_	7	obl	_	_
+3	siː-d	siː	NOUN	_	Case=Dat	2	nmod	_	_
+4	buɣul	buɣul	ADV	_	Degree=Abs	7	advmod	_	_
+5	dutʃin	dutʃin	NUM	_	NumType=Card	6	nummod	_	_
+6	doloː	doloː	NUM	_	NumType=Card	7	nummod	_	_
+7	nas	nas	NOUN	_	_	8	xcomp	_	_
+8	bol-wəi	bol	VERB	_	Tense=Fut	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = Daur_grammar_55
+# text = ʃiː nuɣur au-sən-ʃi jəː?
+# text[eng] = Are you married?
+1	ʃiː	ʃiː	PRON	_	Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
+2	nuɣur	nuɣur	NOUN	_	_	3	obj	_	_
+3	au-sən-ʃi	au	VERB	_	Number=Sing|Person=2|Tense=Past	0	root	_	_
+4	jəː	jəː	PART	_	PartType=Int	3	discourse	_	SpaceAfter=No
+5	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Daur_grammar_56
+# text = ʃiː xəil-lən-ʃi jəː?
+# text[eng] = Are you married?
+1	ʃiː	ʃiː	PRON	_	Number=Sing|Person=2|PronType=Prs	2	nsubj	_	_
+2	xəil-lən-ʃi	xəil	VERB	_	Number=Sing|Person=2|Tense=Past	0	root	_	_
+3	jəː	jəː	PART	_	PartType=Int	2	discourse	_	SpaceAfter=No
+4	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Daur_grammar_57
+# text = biː xəil-ɣəː-ɣu udeːn-mi. biː gaʃkaː bəj-əː aːdʒ-aː-wəi.
+# text[eng] = No, I am not married. I am still a bachelor.
+1	biː	biː	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	xəil-ɣəː-ɣu	xəil	VERB	_	Aspect=Imp|Voice=Cau	0	root	_	_
+3	udeːn-mi	udeːn	AUX	_	Number=Sing|Person=1|Polarity=Neg	2	aux	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	2	punct	_	_
+5	biː	biː	PRON	_	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+6	gaʃkaː	gaʃkaː	ADV	_	_	8	advmod	_	_
+7	bəj-əː	bəj	NOUN	_	Reflex=Yes	8	nsubj	_	_
+8	aːdʒ-aː-wəi	aːdʒ	AUX	_	Tense=Past	2	parataxis	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Daur_grammar_58
+# text = biː xəil-ɣu udeː-mi.
+# text[eng] = No, I am not married.
+1	biː	biː	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	xəil-ɣu	xəil	VERB	_	Aspect=Imp	0	root	_	_
+3	udeː-mi	udeːn	AUX	_	Number=Sing|Person=1|Polarity=Neg	2	aux	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Daur_grammar_59
+# text = gərʲ-dəː xədən aŋgəl-taː?
+# text[eng] = How many people are there in your family?
+1	gərʲ-dəː	gərʲ	NOUN	_	Case=Loc|Reflex=Yes	3	obl	_	_
+2	xədən	xədən	DET	_	PronType=Int	3	det	_	_
+3	aŋgəl-taː	aŋgəl	NOUN	_	Number=Sing|Person=2	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Daur_grammar_60
+# text = baː garʲ-dəː doloː aŋgəl-baː.
+# text[eng] = There are seven people in my family.
+1	baː	baː	PRON	_	Number=Plur|Person=1|PronType=Prs	0	root	_	_
+2	garʲ-dəː	garʲ	NOUN	_	Case=Loc|Reflex=Yes	4	obl	_	_
+3	doloː	doloː	NUM	_	NumType=Card	4	nummod	_	_
+4	aŋgəl-baː	aŋgəl	NOUN	_	Number=Plur|Person=1	1	parataxis	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Daur_grammar_61
+# text = minʲ ujin dəu-minʲ nəktəːr xəil-dʒ xoir xoːn bol-lən.
+# text[eng] = My younger sister has been married for two years.
+1	minʲ	minʲ	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+2	ujin	ujin	NOUN	_	_	3	compound	_	_
+3	dəu-minʲ	dəu	NOUN	_	Number=Sing|Person[psor]=1	8	nsubj	_	_
+4	nəktəːr	nəktəːr	ADV	_	_	8	advmod	_	_
+5	xəil-dʒ	xəil	VERB	_	Aspect=Perf|VerbForm=Part	8	xcomp	_	_
+6	xoir	xoir	NUM	_	NumType=Card	7	nummod	_	_
+7	xoːn	xoːn	NOUN	_	_	8	obl	_	_
+8	bol-lən	bol	VERB	_	Tense=Past	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = Daur_grammar_62
+# text = tər xaːmə xəil-lən?
+# text[eng] = Who did she marry?
+1	tər	tər	PRON	_	Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	xaːmə	xaːmə	PRON	_	PronType=Int	3	obj	_	_
+3	xəil-lən	xəil	VERB	_	Tense=Past	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Daur_grammar_63
+# text = tər nək tulaːdʒiː gəlʲ-dʒ-a-ɣu xuː-d xəil-lən.
+# text[eng] = She married a tractor driver.
+1	tər	tər	PRON	_	Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+2	nək	nək	NUM	_	NumType=Card	3	nummod	_	_
+3	tulaːdʒiː	tulaːdʒiː	NOUN	_	_	5	obj	_	_
+4	gəlʲ-dʒ-a-ɣu	gəlʲ	VERB	_	Aspect=Imp|VerbForm=Part	3	acl	_	_
+5	xuː-d	xuː	NOUN	_	Case=Dat	7	obj	_	_
+6	xəil-lən	xəil	VERB	_	Tense=Past	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Daur_grammar_64
+# text = təd utʃkər-tiː jəː?
+# text[eng] = Do they have any children?
+1	təd	təd	PRON	_	Number=Plur|Person=3|PronType=Prs	0	root	_	_
+2	utʃkər-tiː	utʃkər	NOUN	_	Number=Plur	1	parataxis	_	_
+3	jəː	jəː	PART	_	PartType=Int	1	discourse	_	SpaceAfter=No
+4	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Daur_grammar_65
+# text = təd ordoːn sar-d nək urtʃkər-tiː bol-lən.
+# text[eng] = They just had a baby last month.
+1	təd	təd	PRON	_	Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
+2	ordoːn	ordoːn	ADV	_	_	6	advmod	_	_
+3	sar-d	sar	NOUN	_	Case=Dat	6	obl	_	_
+4	nək	nək	NUM	_	NumType=Card	5	nummod	_	_
+5	urtʃkər-tiː	urtʃkər	NOUN	_	Number=Sing	6	obj	_	_
+6	bol-lən	bol	VERB	_	Tense=Past	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Daur_grammar_66
+# text = minʲ kakʷ-minʲ nʲŋgunbeː-d xəil-ɣəː-bəi əl-dʒ-a-bəi.
+# text[eng] = My son plans to get married in June.
+1	minʲ	minʲ	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	kakʷ-minʲ	kakʷ	NOUN	_	Number=Sing|Person[psor]=1	6	nsubj	_	_
+3	nʲŋgunbeː-d	nʲŋgunbeː	NOUN	_	Case=Dat	6	obl	_	_
+4	xəil-ɣəː-bəi	xəil	VERB	_	Tense=Pres|Voice=Cau	6	xcomp	_	_
+5	əl-dʒ-a-bəi	əl	VERB	_	Aspect=Imp|Tense=Pres	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Daur_grammar_67
+# text = təd xədʒəː xolbuɣ-oː tortoː-ɣu udeːn.
+# text[eng] = They have not decided when they will get married.
+1	təd	təd	PRON	_	Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+2	xədʒəː	xədʒəː	ADV	_	PronType=Int	3	advmod	_	_
+3	xolbuɣ-oː	xolbuɣ	VERB	_	Aspect=Imp|VerbForm=Conv	4	advcl	_	_
+4	tortoː-ɣu	tortoː	VERB	_	Aspect=Perf	0	root	_	_
+5	udeːn	udeːn	AUX	_	Polarity=Neg	4	aux	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Daur_grammar_68
+# text = tədə-nʲ omuli-inʲ xoː xiɣ bol-lən.
+# text[eng] = Their grandchildren are all grown up.
+1	tədə-nʲ	tədə	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	2	nmod:poss	_	_
+2	omuli-inʲ	omuli	NOUN	_	_	5	nsubj	_	_
+3	xoː	xoː	ADV	_	_	4	advmod	_	_
+4	xiɣ	xiɣ	ADJ	_	Degree=Pos	5	xcomp	_	_
+5	bol-lən	bol	VERB	_	Tense=Past	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Daur_grammar_69
+# text = ʃiː xaːnə udʒi-rd-tən-ʃeː?
+# text[eng] = Where were you born?
+1	ʃiː	ʃiː	PRON	_	Number=Sing|Person=2|PronType=Prs	3	nsubj:pass	_	_
+2	xaːnə	xaːnə	ADV	_	PronType=Int	3	advmod	_	_
+3	udʒi-rd-tən-ʃeː	udʒi	VERB	_	Number=Sing|Person=2|Tense=Past|Voice=Pass	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Daur_grammar_70
+# text = biː ənd-əːr wairkən uʃkən gʲaː gadʒir udʒi-rd-tən-mi.
+# text[eng] = I was born in a small town near here.
+1	biː	biː	PRON	_	Number=Sing|Person=1|PronType=Prs	0	root	_	_
+2	ənd-əːr	ənd	NOUN	_	Case=Abl	3	obl	_	_
+3	wairkən	wairkən	ADP	_	_	1	parataxis	_	_
+4	uʃkən	uʃkən	ADJ	_	_	6	amod	_	_
+5	gʲaː	gʲaː	NOUN	_	_	6	compound	_	_
+6	gadʒir	gadʒir	NOUN	_	_	1	parataxis	_	_
+7	udʒi-rd-tən-mi	udʒi	VERB	_	Number=Sing|Person=1|Tense=Past|Voice=Pass	1	parataxis	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = Daur_grammar_71
+# text = ʃiː xaːnə xuː bol-lən-ʃeː?
+# text[eng] = Where did you grow up?
+1	ʃiː	ʃiː	PRON	_	Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
+2	xaːnə	xaːnə	ADV	_	PronType=Int	4	advmod	_	_
+3	xuː	xuː	NOUN	_	_	4	xcomp	_	_
+4	bol-lən-ʃeː	bol	VERB	_	Number=Sing|Person=2|Tense=Past	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Daur_grammar_72
+# text = biː mətər ənə ail-d xuː bol-lən-mi.
+# text[eng] = I grew up in this village.
+1	biː	biː	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+2	mətər	mətər	ADV	_	_	6	advmod	_	_
+3	ənə	ənə	DET	_	PronType=Dem	4	det	_	_
+4	ail-d	ail	NOUN	_	Case=Dat	6	obl	_	_
+5	xuː	xuː	NOUN	_	_	6	xcomp	_	_
+6	bol-lən-mi	bol	VERB	_	Number=Sing|Person=1|Tense=Past	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Daur_grammar_73
+# text = minʲ akaː-minʲ uʃkən-dəː gʲaː-d aː-sən.
+# text[eng] = My older brother spent his childhood in the city.
+1	minʲ	minʲ	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nmod:poss	_	_
+2	akaː-minʲ	akaː	NOUN	_	_	6	nsubj	_	_
+3	uʃkən-dəː	uʃkən	NOUN	_	Reflex=Yes	6	obj	_	_
+4	gʲaː-d	gʲaː	NOUN	_	Case=Dat	6	obl	_	_
+5	aː-sən	aː	VERB	_	Tense=Past	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Daur_grammar_74
+# text = tər gʲaː-d xarbən doloːtiː bol-tl-aː aː-sən.
+# text[eng] = He had lived in the city until he was seventeen years old.
+1	tər	tər	PRON	_	Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+2	gʲaː-d	gʲaː	NOUN	_	Case=Dat	6	obl	_	_
+3	xarbən	xarbən	NUM	_	NumType=Card	4	nummod	_	_
+4	doloːtiː	doloːtiː	NUM	_	NumType=Card	5	nummod	_	_
+5	bol-tl-aː	bol	VERB	_	Aspect=Ter|Mood=Ind|Person=3|VerbForm=Fin	6	advcl	_	_
+6	aː-sən	aː	VERB	_	Tense=Past	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Daur_grammar_75
+# text = ʃiː xaːnə aː-dʒ-a-b-ʃeː?
+# text[eng] = Where do you live?
+1	ʃiː	ʃiː	PRON	_	Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
+2	xaːnə	xaːnə	ADV	_	PronType=Int	3	advmod	_	_
+3	aː-dʒ-a-b-ʃeː	aː	VERB	_	Aspect=Imp|Mood=NFT|Number=Sing|Person=2	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Daur_grammar_76
+# text = biː əil-iː əməl bəj-d aː-dʒ-a-ɣu nək gʲaːlaːn waːs xəidʒ gərʲ-d a-dʒ-a-w.
+# text[eng] = I live in a house in the south of the village.
+1	biː	biː	PRON	_	Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+2	əil-iː	əil	NOUN	_	Case=Gen	4	nmod:poss	_	_
+3	əməl	əməl	NOUN	_	_	4	compound	_	_
+4	bəj-d	bəj	NOUN	_	Case=Dat	11	obl	_	_
+5	aː-dʒ-a-ɣu	aː	VERB	_	Aspect=Imp	4	acl	_	_
+6	nək	nək	DET	_	PronType=Ind	10	det	_	_
+7	gʲaːlaːn	gʲaːlaːn	NOUN	_	_	10	compound	_	_
+8	waːs	waːs	NOUN	_	_	10	compound	_	_
+9	xəidʒ	xəidʒ	VERB	_	VerbForm=Part	10	acl	_	_
+10	gərʲ-d	gərʲ	NOUN	_	Case=Dat	11	obl	_	_
+11	a-dʒ-a-w	aː	VERB	_	Aspect=Imp|Mood=NPT|Number=Sing|Person=1	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = Daur_grammar_77
+# text = du1əː-sən xorin xoːn ənə gadʒir xiɣ entʃkʷəːn bol-lən.
+# text[eng] = There were many changes in the past twenty years.
+1	du1əː-sən	du1əː	ADV	_	Aspect=Perf	6	advmod	_	_
+2	xorin	xorin	NUM	_	NumType=Card	3	nummod	_	_
+3	xoːn	xoːn	NOUN	_	_	6	obl	_	_
+4	ənə	ənə	DET	_	PronType=Dem	5	det	_	_
+5	gadʒir	gadʒir	NOUN	_	_	6	nsubj	_	_
+6	xiɣ	xiɣ	ADJ	_	Degree=Pos	7	xcomp	_	_
+7	entʃkʷəːn	entʃkʷəːn	NOUN	_	_	8	nsubj	_	_
+8	bol-lən	bol	VERB	_	Tense=Past	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = Daur_grammar_78
+# text = tər gərʲ-sul-liː xoː ənə xarbən xoːn-d bail-ɣaː-sən.
+# text[eng] = All those houses were built in the past ten years.
+1	tər	tər	DET	_	PronType=Dem	2	det	_	_
+2	gərʲ-sul-liː	gərʲ	NOUN	_	Case=Acc|Number=Plur	8	nsubj:pass	_	_
+3	xoː	xoː	DET	_	PronType=Tot	2	det	_	_
+4	ənə	ənə	DET	_	PronType=Dem	6	det	_	_
+5	xarbən	xarbən	NUM	_	NumType=Card	6	nummod	_	_
+6	xoːn-d	xoːn	NOUN	_	Case=Dat	8	obl	_	_
+7	bail-ɣaː-sən	bail	VERB	_	Tense=Past|Voice=Cau	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = Daur_grammar_79
+# text = baː nək nək-əː xoː sain mədə-ltʃ-waː.
+# text[eng] = We all have known each other well.
+1	baː	baː	PRON	_	Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
+2	nək	nək	PRON	_	PronType=Rcp	6	obj	_	_
+3	nək-əː	nək	PRON	_	PronType=Rcp|Voice=Cau	2	fixed	_	_
+4	xoː	xoː	DET	_	PronType=Tot	1	det	_	_
+5	sain	sain	ADV	_	_	6	advmod	_	_
+6	mədə-ltʃ-waː	mədə	VERB	_	Aspect=Imp|Mood=NIT|Voice=Rcp	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Daur_grammar_80
+# text = tər olloːn gərʲtʃeːn xedʒəː nəu-dʒ ir-sən-sul?
+# text[eng] = When did your next door neighbor move in ?
+1	tər	tər	DET	_	PronType=Dem	2	det	_	_
+2	olloːn	olloːn	NOUN	_	_	6	nsubj	_	_
+3	gərʲtʃeːn	gərʲtʃeːn	NOUN	_	Number=Plur	2	appos	_	_
+4	xedʒəː	xedʒəː	ADV	_	PronType=Int	6	advmod	_	_
+5	nəu-dʒ	nəu	VERB	_	Aspect=Imp	6	compound	_	_
+6	ir-sən-sul	ir	VERB	_	Number=Plur|Tense=Past	0	root	_	SpaceAfter=No
+7	?	?	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Daur_grammar_81
+# text = təd-niː nəu-dʒ ir-ɣu ərin-d biː uʃkən aː-sən-bi.
+# text[eng] = I was a small child when they moved here.
+1	təd-niː	təd	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+2	nəu-dʒ	nəu	VERB	_	Aspect=Imp	3	compound	_	_
+3	ir-ɣu	ir	VERB	_	Aspect=Imp	7	advcl	_	_
+4	ərin-d	ərin	NOUN	_	Case=Dat	3	obl	_	_
+5	biː	biː	PRON	_	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+6	uʃkən	uʃkən	ADJ	_	Degree=Pos	7	xcomp	_	_
+7	aː-sən-bi	aː	VERB	_	Number=Sing|Person=1|Tense=Past	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = Daur_grammar_82
+# text = tər tʃoloː xuːruɣ-ui əmə1kəːn-inʲ bəi.
+# text[eng] = The hospital is south of that stone bridge.
+1	tər	tər	DET	_	PronType=Dem	3	det	_	_
+2	tʃoloː	tʃoloː	NOUN	_	_	3	compound	_	_
+3	xuːruɣ-ui	xuːruɣ	NOUN	_	Case=Gen	4	nmod	_	_
+4	əmə1kəːn-inʲ	əmə1kəːn	NOUN	_	Case=Gen	5	nsubj	_	_
+5	bəi	bəi	VERB	_	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Daur_grammar_83
+# text = xoːtʃəːdʒan-d kurɣu-d joːkeː xol?
+# text[eng] = How far is the train station ?
+1	xoːtʃəːdʒan-d	xoːtʃəːdʒan	NOUN	_	Case=Dat	4	nsubj	_	_
+2	kurɣu-d	kurɣu	NOUN	_	Case=Dat	1	nmod	_	_
+3	joːkeː	joːkeː	ADV	_	PronType=Int	4	advmod	_	_
+4	xol	xol	ADJ	_	Degree=Pos	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Daur_grammar_84
+# text = ənd-əːr antək xol bəi.
+# text[eng] = It's very far from here.
+1	ənd-əːr	ənd	NOUN	_	Case=Abl	3	obl	_	_
+2	antək	antək	ADV	_	_	3	advmod	_	_
+3	xol	xol	ADJ	_	Degree=Pos	0	root	_	_
+4	bəi	bəi	AUX	_	Mood=Ind|VerbForm=Fin	3	cop	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Daur_grammar_85
+# text = gʷans luigʷanʲ xəsruɣʷ aː-dʒ-a-bəi.
+# text[eng] = The restaurant is just opposite the hotel.
+1	gʷans	gʷans	NOUN	_	_	3	nsubj	_	_
+2	luigʷanʲ	luigʷanʲ	NOUN	_	_	3	obl	_	_
+3	xəsruɣʷ	xəsruɣʷ	ADJ	_	Degree=Pos	0	root	_	_
+4	aː-dʒ-a-bəi	aː	AUX	_	Aspect=Imp|Mood=NPT	3	cop	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Daur_grammar_86
+# text = ʃiː ərʲdʒ u1 olɣuʃ-inʲ biʃin.
+# text[eng] = You cannot miss it.
+1	ʃiː	ʃiː	PRON	_	Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
+2	ərʲdʒ	ərʲdʒ	VERB	_	VerbForm=Inf	4	xcomp	_	_
+3	u1	u1	PART	_	Polarity=Neg	4	advmod	_	_
+4	olɣuʃ-inʲ	olɣuʃ	VERB	_	Number=Sing|Person=2	0	root	_	_
+5	biʃin	biʃin	PART	_	Polarity=Neg	4	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Daur_grammar_87
+# text = ʃiː naː-d dʒaː-dʒ ukʷ, wairkən maimaːn xaːnə bəi?
+# text[eng] = Could you tell me where the nearest shop is ?
+1	ʃiː	ʃiː	PRON	_	Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
+2	naː-d	naː	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+3	dʒaː-dʒ	dʒaː	VERB	_	Aspect=Imp	4	compound	_	_
+4	ukʷ	ukʷ	VERB	_	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	wairkən	wairkən	ADV	_	Degree=Sup	8	advmod	_	_
+7	maimaːn	maimaːn	NOUN	_	_	8	nsubj	_	_
+8	xaːnə	xaːnə	ADV	_	PronType=Int	4	ccomp	_	_
+9	bəi	bəi	AUX	_	Mood=Ind|VerbForm=Fin	8	cop	_	SpaceAfter=No
+10	?	?	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Daur_grammar_88
+# text = biː əidəː jaw-oːs-minʲ dʒuɣi-ɣu jumoː? tiːdaː jaw-oːs-minʲ dʒuɣi-ɣu jumoː?
+# text[eng] = Will I go this way or that way ?
+1	biː	biː	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	əidəː	əidəː	ADV	_	_	3	advmod	_	_
+3	jaw-oːs-minʲ	jaw	VERB	_	Number=Sing|Person=1|VerbForm=Conv	5	advcl	_	_
+4	dʒuɣi-ɣu	dʒuɣi	VERB	_	Aspect=Imp	5	aux	_	_
+5	jumoː	jumoː	VERB	_	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	_	_	5	punct	_	_
+7	tiːdaː	tiːdaː	ADV	_	_	8	advmod	_	_
+8	jaw-oːs-minʲ	jaw	VERB	_	Number=Sing|Person=1|VerbForm=Conv	10	advcl	_	_
+9	dʒuɣi-ɣu	dʒuɣi	VERB	_	Aspect=Imp	10	aux	_	_
+10	jumoː	jumoː	VERB	_	Mood=Ind|VerbForm=Fin	5	parataxis	_	SpaceAfter=No
+11	?	?	PUNCT	_	_	10	punct	_	_
+
+# sent_id = Daur_grammar_89
+# text = biː maimaːn-d itʃ-wəi juɣuː əl-əːs biː dʒak au-wəi.
+# text[eng] = I will go to the department store because I need to buy something.
+1	biː	biː	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	maimaːn-d	maimaːn	NOUN	_	Case=Dat	3	obl	_	_
+3	itʃ-wəi	itʃ	VERB	_	Mood=NPT|Number=Sing|Person=1	0	root	_	_
+4	juɣuː	juɣuː	PRON	_	PronType=Ind	7	obj	_	_
+5	əl-əːs	əl	SCONJ	_	VerbForm=Conv	7	mark	_	_
+6	biː	biː	PRON	_	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	dʒak	dʒak	NOUN	_	_	8	obj	_	_
+8	au-wəi	au	VERB	_	Mood=NPT|Number=Sing|Person=1	3	advcl	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Daur_grammar_90
+# text = ʃiː tər wark-liː əms-ɣu-d dʒəki-n.
+# text[eng] = That clothing seems to fit you perfectly.
+1	ʃiː	ʃiː	PRON	_	Number=Sing|Person=2|PronType=Prs	5	obl	_	_
+2	tər	tər	DET	_	PronType=Dem	3	det	_	_
+3	wark-liː	wark	NOUN	_	Case=Acc	5	nsubj	_	_
+4	əms-ɣu-d	əms	VERB	_	Aspect=Imp|Case=Dat	5	xcomp	_	_
+5	dʒəki-n	dʒəki	VERB	_	Mood=NPT	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Daur_grammar_91
+# text = ənə warkl-iː tʃaus-əːr xiː-sən dʒuɣ uʲ-bəi jəː?
+# text[eng] = The clothing is made of silk, isn't it ?
+1	ənə	ənə	DET	_	PronType=Dem	2	det	_	_
+2	warkl-iː	warkl	NOUN	_	Case=Acc	4	nsubj	_	_
+3	tʃaus-əːr	tʃaus	NOUN	_	Case=Ins	4	obl	_	_
+4	xiː-sən	xiː	VERB	_	Tense=Past	0	root	_	_
+5	dʒuɣ	dʒuɣ	ADV	_	_	4	advmod	_	_
+6	uʲ-bəi	uʲ	PART	_	Mood=NPT	4	discourse	_	_
+7	jəː	jəː	PART	_	PartType=ITP	4	discourse	_	SpaceAfter=No
+8	?	?	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Daur_grammar_92
+# text = əimər sabʲ ənə udur dur-dʒ-a-bəi jəː?
+# text[eng] = Do you have this kind of shoes today ?
+1	əimər	əimər	DET	_	PronType=Dem	2	det	_	_
+2	sabʲ	sabʲ	NOUN	_	_	5	obj	_	_
+3	ənə	ənə	DET	_	PronType=Dem	4	det	_	_
+4	udur	udur	NOUN	_	_	5	obl	_	_
+5	dur-dʒ-a-bəi	dur	VERB	_	Aspect=Imp|Mood=NPT	0	root	_	_
+6	jəː	jəː	PART	_	PartType=ITP	5	discourse	_	SpaceAfter=No
+7	?	?	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Daur_grammar_93
+# text = tər kunu dəmbəl saikən səutiːbaul kəː tendəː aiduɣʷ katuː kəː
+# text[eng] = That purse is very nice but too expensive.
+1	tər	tər	DET	_	PronType=Dem	5	det	_	_
+2	kunu	kunu	PART	_	PartType=Emp	4	advmod	_	_
+3	dəmbəl	dəmbəl	ADV	_	Degree=Pos	4	advmod	_	_
+4	saikən	saikən	ADJ	_	Degree=Pos	0	root	_	_
+5	səutiːbaul	səutiːbaul	NOUN	_	Number=Sing	4	nsubj	_	_
+6	kəː	kəː	CCONJ	_	_	9	cc	_	_
+7	tendəː	tendəː	ADV	_	Degree=Pos	9	advmod	_	_
+8	aiduɣʷ	aiduɣʷ	ADV	_	Degree=Pos	9	advmod	_	_
+9	katuː	katuː	ADJ	_	Degree=Pos	4	conj	_	_
+10	kəː	kəː	PART	_	PartType=Disc	4	discourse	_	_
+
+# sent_id = Daur_grammar_94
+# text = joːɣiː-daː joːkeː dʒiɣaː?
+1	joːɣiː-daː	joːɣiː	ADV	_	_	3	advmod	_	_
+2	joːkeː	joːkeː	ADV	_	_	3	advmod	_	_
+3	dʒiɣaː	dʒiɣaː	NOUN	_	_	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Daur_grammar_95
+# text = xarbən is xartʃ naimən mau durbun fən.
+1	xarbən	xarbən	NUM	_	_	3	nummod	_	_
+2	is	is	NUM	_	_	1	compound	_	_
+3	xartʃ	xartʃ	NOUN	_	_	0	root	_	_
+4	naimən	naimən	NUM	_	_	6	nummod	_	_
+5	mau	mau	NUM	_	_	4	compound	_	_
+6	durbun	durbun	NOUN	_	_	3	conj	_	_
+7	fən	fən	NOUN	_	_	6	compound	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	3	punct	_	_
+
