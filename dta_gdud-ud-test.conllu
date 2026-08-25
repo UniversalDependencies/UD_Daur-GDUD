@@ -2,7 +2,7 @@
 # text = ənə joː?
 # text[eng] = What is this?
 1	ənə	ənə	PRON	_	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
-2	joː	joː	VERB	_	VerbForm=Cop	0	root	_	SpaceAfter=No
+2	joː	joː	VERB	_	_	0	root	_	SpaceAfter=No|VerbForm=Cop
 3	?	?	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Daur_grammar_2
@@ -350,7 +350,7 @@
 6	nidaːnʲ	nidaːnʲ	NOUN	_	_	8	obl:tmod	_	_
 7	dʒʷəːbeː	dʒʷəːbeː	PROPN	_	_	6	appos	_	_
 8	aː-sən	aː	VERB	_	Tense=Past|VerbForm=Part	9	xcomp	_	_
-9	bəidʒeː	bəi	AUX	_	Evident=Hearsay|Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	SpaceAfter=No
+9	bəidʒeː	bəi	AUX	_	Evident=Nfh|Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Daur_grammar_35
@@ -794,7 +794,7 @@
 2	gʲaː-d	gʲaː	NOUN	_	Case=Dat	6	obl	_	_
 3	xarbən	xarbən	NUM	_	NumType=Card	4	nummod	_	_
 4	doloːtiː	doloːtiː	NUM	_	NumType=Card	5	nummod	_	_
-5	bol-tl-aː	bol	VERB	_	Aspect=Ter|Mood=Ind|Person=3|VerbForm=Fin	6	advcl	_	_
+5	bol-tl-aː	bol	VERB	_	Mood=Ind|Person=3|VerbForm=Fin	6	advcl	_	Aspect=Ter
 6	aː-sən	aː	VERB	_	Tense=Past	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -803,7 +803,7 @@
 # text[eng] = Where do you live?
 1	ʃiː	ʃiː	PRON	_	Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
 2	xaːnə	xaːnə	ADV	_	PronType=Int	3	advmod	_	_
-3	aː-dʒ-a-b-ʃeː	aː	VERB	_	Aspect=Imp|Mood=NFT|Number=Sing|Person=2	0	root	_	SpaceAfter=No
+3	aː-dʒ-a-b-ʃeː	aː	VERB	_	Aspect=Imp|Number=Sing|Person=2	0	root	_	SpaceAfter=No|Mood=NFT
 4	?	?	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Daur_grammar_76
@@ -819,7 +819,7 @@
 8	waːs	waːs	NOUN	_	_	10	compound	_	_
 9	xəidʒ	xəidʒ	VERB	_	VerbForm=Part	10	acl	_	_
 10	gərʲ-d	gərʲ	NOUN	_	Case=Dat	11	obl	_	_
-11	a-dʒ-a-w	aː	VERB	_	Aspect=Imp|Mood=NPT|Number=Sing|Person=1	0	root	_	SpaceAfter=No
+11	a-dʒ-a-w	aː	VERB	_	Aspect=Imp|Number=Sing|Person=1	0	root	_	SpaceAfter=No|Mood=NPT
 12	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = Daur_grammar_77
@@ -855,7 +855,7 @@
 3	nək-əː	nək	PRON	_	PronType=Rcp|Voice=Cau	2	fixed	_	_
 4	xoː	xoː	DET	_	PronType=Tot	1	det	_	_
 5	sain	sain	ADV	_	_	6	advmod	_	_
-6	mədə-ltʃ-waː	mədə	VERB	_	Aspect=Imp|Mood=NIT|Voice=Rcp	0	root	_	SpaceAfter=No
+6	mədə-ltʃ-waː	mədə	VERB	_	Aspect=Imp|Voice=Rcp	0	root	_	SpaceAfter=No|Mood=NIT
 7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = Daur_grammar_80
@@ -915,7 +915,7 @@
 1	gʷans	gʷans	NOUN	_	_	3	nsubj	_	_
 2	luigʷanʲ	luigʷanʲ	NOUN	_	_	3	obl	_	_
 3	xəsruɣʷ	xəsruɣʷ	ADJ	_	Degree=Pos	0	root	_	_
-4	aː-dʒ-a-bəi	aː	AUX	_	Aspect=Imp|Mood=NPT	3	cop	_	SpaceAfter=No
+4	aː-dʒ-a-bəi	aː	AUX	_	Aspect=Imp	3	cop	_	SpaceAfter=No|Mood=NPT
 5	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Daur_grammar_86
@@ -962,12 +962,12 @@
 # text[eng] = I will go to the department store because I need to buy something.
 1	biː	biː	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	maimaːn-d	maimaːn	NOUN	_	Case=Dat	3	obl	_	_
-3	itʃ-wəi	itʃ	VERB	_	Mood=NPT|Number=Sing|Person=1	0	root	_	_
+3	itʃ-wəi	itʃ	VERB	_	Number=Sing|Person=1	0	root	_	Mood=NPT
 4	juɣuː	juɣuː	PRON	_	PronType=Ind	7	obj	_	_
 5	əl-əːs	əl	SCONJ	_	VerbForm=Conv	7	mark	_	_
 6	biː	biː	PRON	_	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
 7	dʒak	dʒak	NOUN	_	_	8	obj	_	_
-8	au-wəi	au	VERB	_	Mood=NPT|Number=Sing|Person=1	3	advcl	_	SpaceAfter=No
+8	au-wəi	au	VERB	_	Number=Sing|Person=1	3	advcl	_	SpaceAfter=No|Mood=NPT
 9	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Daur_grammar_90
@@ -977,7 +977,7 @@
 2	tər	tər	DET	_	PronType=Dem	3	det	_	_
 3	wark-liː	wark	NOUN	_	Case=Acc	5	nsubj	_	_
 4	əms-ɣu-d	əms	VERB	_	Aspect=Imp|Case=Dat	5	xcomp	_	_
-5	dʒəki-n	dʒəki	VERB	_	Mood=NPT	0	root	_	SpaceAfter=No
+5	dʒəki-n	dʒəki	VERB	_	_	0	root	_	SpaceAfter=No|Mood=NPT
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Daur_grammar_91
@@ -988,8 +988,8 @@
 3	tʃaus-əːr	tʃaus	NOUN	_	Case=Ins	4	obl	_	_
 4	xiː-sən	xiː	VERB	_	Tense=Past	0	root	_	_
 5	dʒuɣ	dʒuɣ	ADV	_	_	4	advmod	_	_
-6	uʲ-bəi	uʲ	PART	_	Mood=NPT	4	discourse	_	_
-7	jəː	jəː	PART	_	PartType=ITP	4	discourse	_	SpaceAfter=No
+6	uʲ-bəi	uʲ	PART	_	_	4	discourse	_	Mood=NPT
+7	jəː	jəː	PART	_	_	4	discourse	_	SpaceAfter=No|PartType=ITP
 8	?	?	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Daur_grammar_92
@@ -999,15 +999,15 @@
 2	sabʲ	sabʲ	NOUN	_	_	5	obj	_	_
 3	ənə	ənə	DET	_	PronType=Dem	4	det	_	_
 4	udur	udur	NOUN	_	_	5	obl	_	_
-5	dur-dʒ-a-bəi	dur	VERB	_	Aspect=Imp|Mood=NPT	0	root	_	_
-6	jəː	jəː	PART	_	PartType=ITP	5	discourse	_	SpaceAfter=No
+5	dur-dʒ-a-bəi	dur	VERB	_	Aspect=Imp	0	root	_	Mood=NPT
+6	jəː	jəː	PART	_	_	5	discourse	_	SpaceAfter=No|PartType=ITP
 7	?	?	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Daur_grammar_93
 # text = tər kunu dəmbəl saikən səutiːbaul kəː tendəː aiduɣʷ katuː kəː
 # text[eng] = That purse is very nice but too expensive.
 1	tər	tər	DET	_	PronType=Dem	5	det	_	_
-2	kunu	kunu	PART	_	PartType=Emp	4	advmod	_	_
+2	kunu	kunu	PART	_	_	4	advmod	_	PartType=Emp
 3	dəmbəl	dəmbəl	ADV	_	Degree=Pos	4	advmod	_	_
 4	saikən	saikən	ADJ	_	Degree=Pos	0	root	_	_
 5	səutiːbaul	səutiːbaul	NOUN	_	Number=Sing	4	nsubj	_	_
