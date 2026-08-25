@@ -27,7 +27,7 @@
 # text[eng] = That is not a book.
 1	tər	tər	DET	_	PronType=Dem	4	det	_	_
 2	bitəɣ	bitəɣ	NOUN	_	Number=Sing	4	compound	_	_
-3	xiː-ɣu	xiː-ɣu	AUX	_	Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	xiː-ɣu	xiː-ɣu	VERB	_	Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin	4	xcomp	_	_
 4	dəbtleːn	dəbtleːn	NOUN	_	Number=Sing	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -134,8 +134,8 @@
 4	tʃ	tʃ	ADV	_	_	5	advmod	_	_
 5	biʃin	biʃin	AUX	_	Mood=Ind|Polarity=Neg|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
-7	akaː-jiːɣ-minʲ	akaː	NOUN	_	Case=Gen|Person=3|Poss=Yes	10	xcomp	_	_
-8	tʃ	tʃ	ADV	_	_	10	advmod	_	_
+7	akaː-jiːɣ-minʲ	akaː	NOUN	_	Case=Gen|Person=3|Poss=Yes	5	xcomp	_	_
+8	tʃ	tʃ	ADV	_	_	5	advmod	_	_
 9	biʃin	biʃin	AUX	_	Mood=Ind|Polarity=Neg|VerbForm=Fin	5	conj	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	5	punct	_	_
 11	xən-jiːɣ-iː	xən	PRON	_	Case=Gen|PronType=Int	13	obj	_	_
@@ -627,7 +627,7 @@
 4	.	.	PUNCT	_	_	2	punct	_	_
 5	biː	biː	PRON	_	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
 6	gaʃkaː	gaʃkaː	ADV	_	_	8	advmod	_	_
-7	bəj-əː	bəj	NOUN	_	Reflex=Yes	8	nsubj	_	_
+7	bəj-əː	bəj	NOUN	_	Reflex=Yes	8	nsubj:outer	_	_
 8	aːdʒ-aː-wəi	aːdʒ	AUX	_	Tense=Past	2	parataxis	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -680,11 +680,11 @@
 # sent_id = Daur_grammar_63
 # text = tər nək tulaːdʒiː gəlʲ-dʒ-a-ɣu xuː-d xəil-lən.
 # text[eng] = She married a tractor driver.
-1	tər	tər	PRON	_	Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+1	tər	tər	PRON	_	Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 2	nək	nək	NUM	_	NumType=Card	3	nummod	_	_
 3	tulaːdʒiː	tulaːdʒiː	NOUN	_	_	5	obj	_	_
 4	gəlʲ-dʒ-a-ɣu	gəlʲ	VERB	_	Aspect=Imp|VerbForm=Part	3	acl	_	_
-5	xuː-d	xuː	NOUN	_	Case=Dat	7	obj	_	_
+5	xuː-d	xuː	NOUN	_	Case=Dat	6	obj	_	_
 6	xəil-lən	xəil	VERB	_	Tense=Past	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -711,9 +711,9 @@
 # text = minʲ kakʷ-minʲ nʲŋgunbeː-d xəil-ɣəː-bəi əl-dʒ-a-bəi.
 # text[eng] = My son plans to get married in June.
 1	minʲ	minʲ	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
-2	kakʷ-minʲ	kakʷ	NOUN	_	Number=Sing|Person[psor]=1	6	nsubj	_	_
-3	nʲŋgunbeː-d	nʲŋgunbeː	NOUN	_	Case=Dat	6	obl	_	_
-4	xəil-ɣəː-bəi	xəil	VERB	_	Tense=Pres|Voice=Cau	6	xcomp	_	_
+2	kakʷ-minʲ	kakʷ	NOUN	_	Number=Sing|Person[psor]=1	5	nsubj	_	_
+3	nʲŋgunbeː-d	nʲŋgunbeː	NOUN	_	Case=Dat	5	obl	_	_
+4	xəil-ɣəː-bəi	xəil	VERB	_	Tense=Pres|Voice=Cau	5	xcomp	_	_
 5	əl-dʒ-a-bəi	əl	VERB	_	Aspect=Imp|Tense=Pres	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -781,9 +781,9 @@
 # text = minʲ akaː-minʲ uʃkən-dəː gʲaː-d aː-sən.
 # text[eng] = My older brother spent his childhood in the city.
 1	minʲ	minʲ	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nmod:poss	_	_
-2	akaː-minʲ	akaː	NOUN	_	_	6	nsubj	_	_
-3	uʃkən-dəː	uʃkən	NOUN	_	Reflex=Yes	6	obj	_	_
-4	gʲaː-d	gʲaː	NOUN	_	Case=Dat	6	obl	_	_
+2	akaː-minʲ	akaː	NOUN	_	_	5	nsubj	_	_
+3	uʃkən-dəː	uʃkən	NOUN	_	Reflex=Yes	5	obj	_	_
+4	gʲaː-d	gʲaː	NOUN	_	Case=Dat	5	obl	_	_
 5	aː-sən	aː	VERB	_	Tense=Past	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -839,11 +839,11 @@
 # text = tər gərʲ-sul-liː xoː ənə xarbən xoːn-d bail-ɣaː-sən.
 # text[eng] = All those houses were built in the past ten years.
 1	tər	tər	DET	_	PronType=Dem	2	det	_	_
-2	gərʲ-sul-liː	gərʲ	NOUN	_	Case=Acc|Number=Plur	8	nsubj:pass	_	_
+2	gərʲ-sul-liː	gərʲ	NOUN	_	Case=Acc|Number=Plur	7	nsubj:pass	_	_
 3	xoː	xoː	DET	_	PronType=Tot	2	det	_	_
 4	ənə	ənə	DET	_	PronType=Dem	6	det	_	_
 5	xarbən	xarbən	NUM	_	NumType=Card	6	nummod	_	_
-6	xoːn-d	xoːn	NOUN	_	Case=Dat	8	obl	_	_
+6	xoːn-d	xoːn	NOUN	_	Case=Dat	7	obl	_	_
 7	bail-ɣaː-sən	bail	VERB	_	Tense=Past|Voice=Cau	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -851,7 +851,7 @@
 # text = baː nək nək-əː xoː sain mədə-ltʃ-waː.
 # text[eng] = We all have known each other well.
 1	baː	baː	PRON	_	Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
-2	nək	nək	PRON	_	PronType=Rcp	6	obj	_	_
+2	nək	nək	PRON	_	ExtPos=PRON|PronType=Rcp	6	obj	_	_
 3	nək-əː	nək	PRON	_	PronType=Rcp|Voice=Cau	2	fixed	_	_
 4	xoː	xoː	DET	_	PronType=Tot	1	det	_	_
 5	sain	sain	ADV	_	_	6	advmod	_	_
@@ -948,12 +948,12 @@
 1	biː	biː	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	əidəː	əidəː	ADV	_	_	3	advmod	_	_
 3	jaw-oːs-minʲ	jaw	VERB	_	Number=Sing|Person=1|VerbForm=Conv	5	advcl	_	_
-4	dʒuɣi-ɣu	dʒuɣi	VERB	_	Aspect=Imp	5	aux	_	_
+4	dʒuɣi-ɣu	dʒuɣi	VERB	_	Aspect=Imp	5	xcomp	_	_
 5	jumoː	jumoː	VERB	_	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	?	?	PUNCT	_	_	5	punct	_	_
 7	tiːdaː	tiːdaː	ADV	_	_	8	advmod	_	_
 8	jaw-oːs-minʲ	jaw	VERB	_	Number=Sing|Person=1|VerbForm=Conv	10	advcl	_	_
-9	dʒuɣi-ɣu	dʒuɣi	VERB	_	Aspect=Imp	10	aux	_	_
+9	dʒuɣi-ɣu	dʒuɣi	VERB	_	Aspect=Imp	10	xcomp	_	_
 10	jumoː	jumoː	VERB	_	Mood=Ind|VerbForm=Fin	5	parataxis	_	SpaceAfter=No
 11	?	?	PUNCT	_	_	10	punct	_	_
 
