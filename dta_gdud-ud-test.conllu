@@ -1015,7 +1015,7 @@
 7	tendəː	tendəː	ADV	_	Degree=Pos	9	advmod	_	_
 8	aiduɣʷ	aiduɣʷ	ADV	_	Degree=Pos	9	advmod	_	_
 9	katuː	katuː	ADJ	_	Degree=Pos	4	conj	_	_
-10	kəː	kəː	PART	_	PartType=Disc	4	discourse	_	_
+10	kəː	kəː	PART	_	_	4	discourse	_	PartType=Disc
 
 # sent_id = Daur_grammar_94
 # text = joːɣiː-daː joːkeː dʒiɣaː?
