@@ -96,7 +96,7 @@
 6	səb	səb	NOUN	_	_	3	ccomp	_	_
 7	jum	jum	CCONJ	_	_	6	cc	_	_
 8	woː	woː	PART	_	PartType=Int	6	discourse	_	SpaceAfter=No
-9	?	?	PUNCT	_	_	3	punct	_	_
+9	?	?	PUNCT	_	_	6	punct	_	_
 10	ʃəbʲ	ʃəbʲ	NOUN	_	_	6	conj	_	_
 11	jum	jum	CCONJ	_	_	10	cc	_	_
 12	woː	woː	PART	_	PartType=Int	10	discourse	_	SpaceAfter=No
@@ -851,7 +851,7 @@
 # text = baː nək nək-əː xoː sain mədə-ltʃ-waː.
 # text[eng] = We all have known each other well.
 1	baː	baː	PRON	_	Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
-2	nək	nək	PRON	_	PronType=Rcp	6	obj	_	_
+2	nək	nək	PRON	_	ExtPos=ADV|PronType=Rcp	6	obj	_	_
 3	nək-əː	nək	PRON	_	PronType=Rcp|Voice=Cau	2	fixed	_	_
 4	xoː	xoː	DET	_	PronType=Tot	1	det	_	_
 5	sain	sain	ADV	_	_	6	advmod	_	_
