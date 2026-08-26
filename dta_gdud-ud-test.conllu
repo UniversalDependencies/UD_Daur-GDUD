@@ -1007,7 +1007,7 @@
 # text = tər kunu dəmbəl saikən səutiːbaul kəː tendəː aiduɣʷ katuː kəː
 # text[eng] = That purse is very nice but too expensive.
 1	tər	tər	DET	_	PronType=Dem	5	det	_	_
-2	kunu	kunu	PART	_	_	4	advmod	_	PartType=Emp
+2	kunu	kunu	PART	_	PartType=Emp	4	advmod	_	_
 3	dəmbəl	dəmbəl	ADV	_	Degree=Pos	4	advmod	_	_
 4	saikən	saikən	ADJ	_	Degree=Pos	0	root	_	_
 5	səutiːbaul	səutiːbaul	NOUN	_	Number=Sing	4	nsubj	_	_
